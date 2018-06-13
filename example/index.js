@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Button} from '../dist/uilib.umd';
+import {Button, Btn} from '../dist/uilib.umd';
 
-ReactDOM.render(<Button />, document.getElementById('root'));
+ReactDOM.render(<Btn>aha! </Btn>, document.getElementById('root'));

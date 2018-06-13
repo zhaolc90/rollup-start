@@ -22194,7 +22194,11 @@ var _uilib = require('../dist/uilib.umd');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_reactDom2.default.render(_react2.default.createElement(_uilib.Button, null), document.getElementById('root'));
+_reactDom2.default.render(_react2.default.createElement(
+  _uilib.Btn,
+  null,
+  'aha! '
+), document.getElementById('root'));
 },{"react":7,"react-dom":8,"../dist/uilib.umd":6}],28:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
