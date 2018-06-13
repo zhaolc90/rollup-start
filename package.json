@@ -1,0 +1,40 @@
+{
+  "name": "rollup-start",
+  "version": "1.0.0",
+  "browser": "dist/uilib.umd.js",
+  "description": "",
+  "main": "src/main.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.0",
+    "the-answer": "^1.0.0"
+  },
+  "devDependencies": {
+    "rollup": "^0.60.0",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node test/test.js",
+    "pretest": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaolc90/rollup-start.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaolc90/rollup-start/issues"
+  },
+  "homepage": "https://github.com/zhaolc90/rollup-start#readme"
+}

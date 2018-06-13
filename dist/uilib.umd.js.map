@@ -1,0 +1,1 @@
+{"version":3,"file":"uilib.umd.js","sources":["../src/components/Button/index.js"],"sourcesContent":["// import './Button.less'\r\n\r\nconst Button = () => {}\r\n\r\nexport default Button\r\n"],"names":[],"mappings":";;;;;;CAAA;;CAEA,MAAM,MAAM,GAAG,MAAM,EAAE;;;;;;;;;;;;"}
